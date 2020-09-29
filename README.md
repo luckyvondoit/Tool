@@ -3,3 +3,5 @@
   
 - 下载在线视频
   - [you-get](https://github.com/soimort/you-get)
+
+- [十八个Mac实用工具](https://www.jianshu.com/p/15c7b3711005)
