@@ -19,4 +19,7 @@
 | 生成目录 | [TOC]表示，特殊，比如CSDN个blog就支持该语法 | |
 
 
+不同编辑器有出入。以下教程使用的是Typora，以内置快捷键为准。
+
+
 * [Markdown 教程](https://www.runoob.com/markdown/md-tutorial.html)
