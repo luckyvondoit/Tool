@@ -11,6 +11,7 @@
 brew install aria2
 ```
 3. 设置配置列表
+
 新建一个名为aria2.conf的配置文件，复制下面的内容到文件内。
 ```
 #用户名
@@ -61,6 +62,9 @@ dir=/User/xxx/Downloads
 file-allocation=prealloc
 ```
 4. 启动
-在终端里面输入`aria2c --conf-path=<PATH>`，将PATH换成刚刚保存的aria2.conf的绝对路径。比如说，aria2.conf是放在文档内，则PATH就是/Users/xxx/Documents/aria2.conf。可以使用 -D 参数使Aria2在后台运行,即使关闭终端也不会停止运行。
+
+在终端里面输入`aria2c --conf-path=<PATH>`，将PATH换成刚刚保存的aria2.conf的绝对路径。
+比如说，aria2.conf是放在文档内，则PATH就是/Users/xxx/Documents/aria2.conf。
+可以使用 -D 参数使Aria2在后台运行,即使关闭终端也不会停止运行。
 完整的运行命令如下:aria2c --conf-path="/Users/xxx/Documents/aria2.conf" -D，终端里输入这个aria2就启动了。
 关机或者关闭了aria2之后，重新启动都要输入这个命令，所以请保存好这个命令。
