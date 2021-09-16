@@ -68,3 +68,8 @@ file-allocation=prealloc
 可以使用 `-D` 参数使Aria2在后台运行,即使关闭终端也不会停止运行。    
 完整的运行命令如下:`aria2c --conf-path="/Users/xxx/Documents/aria2.conf" -D`，终端里输入这个`aria2`就启动了。   
 关机或者关闭了`aria2`之后，重新启动都要输入这个命令，所以请保存好这个命令。   
+
+插件限制每次最多下32个，只能利用`shift`键多选，每次下载30个视频，多次下载。
+
+
+
