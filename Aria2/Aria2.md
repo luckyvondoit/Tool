@@ -6,7 +6,10 @@
 
 **MAC aria2配置方法**
 1. 安装homebrew
-2. 安装Aria2 
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+3. 安装Aria2 
 ```
 brew install aria2
 ```
